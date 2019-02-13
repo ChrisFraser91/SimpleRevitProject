@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application NBS simple addin</Name>
+    <Assembly>.\CloudExportCrash.dll</Assembly>
+    <AddInId>EDD41B51-8D70-4082-A4AE-C096CF66AC23</AddInId>
+    <FullClassName>CloudExportCrash.RevitExternalApp</FullClassName>
+    <VendorId>RIBE</VendorId>
+    <VendorDescription>National Building Specification, http://www.theNBS.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage ProductType="Application">
+  <CompanyDetails Name="RIBA Enterprises Ltd" Phone=" " Url="http://www.autodesk.com" Email="Revit.apps@autodesk.com" />
+
+  <Components Description="2017 parts">
+    <RuntimeRequirements OS="Win64" Platform="Revit|Revit Architecture" SeriesMin="R2017" SeriesMax="R2017" />
+    <ComponentEntry AppName="simple2017" Version="2.3.0.0" ModuleName="./Contents/simple.addin" AppDescription="NBS2017" />
+  </Components>
+  <Components Description="2018 parts">
+    <RuntimeRequirements OS="Win64" Platform="Revit|Revit Architecture" SeriesMin="R2018" SeriesMax="R2018" />
+    <ComponentEntry AppName="simple2018" Version="2.3.0.0" ModuleName="./Contents/simple.addin" AppDescription="NBS2018" />
+  </Components>
+  <Components Description="2019 parts">
+    <RuntimeRequirements OS="Win64" Platform="Revit|Revit Architecture" SeriesMin="R2019" SeriesMax="R2019" />
+    <ComponentEntry AppName="simple2019" Version="2.3.0.0" ModuleName="./Contents/simple.addin" AppDescription="NBS2019" />
+  </Components>
+</ApplicationPackage>

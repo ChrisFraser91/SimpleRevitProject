@@ -1,0 +1,28 @@
+﻿<Page x:Class="CloudExportCrash.DockablePage"
+        xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:dat="clr-namespace:System.Windows.Data;assembly=PresentationFramework"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+
+      Title="Dockable Dialogs"  Height="500" Width="200"
+        x:Name="DockableDialogs"  Background="LightGray">
+
+
+    
+    <Grid Name="grid1">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
+
+    </Grid>
+
+</Page>
+
+
+
+
+
+
